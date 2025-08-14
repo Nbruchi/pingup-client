@@ -45,7 +45,7 @@ const App = () => {
     useEffect(() => {
         if (user) {
             const eventSource = new EventSource(
-                `${import.meta.env.VITE_BACKEND_URL}/messages/${user._id}`
+                `${import.meta.env.VITE_BACKEND_URL}/api/messages/${user._id}`
             );
 
             eventSource.onmessage = (event) => {
