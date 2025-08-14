@@ -1,6 +1,6 @@
 import { BadgeCheck, Heart, MessageCircle, Share2 } from "lucide-react";
 import moment from "moment";
-import api from "../api/axios";
+import api from "../../api/axios";
 import { useAuth } from "@clerk/clerk-react";
 import toast from "react-hot-toast";
 import { useState } from "react";
