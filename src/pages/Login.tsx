@@ -28,9 +28,9 @@ const Login = () => {
                             <div className="flex">
                                 {Array(5)
                                     .fill(0)
-                                    .map((_, i) => (
+                                    .map((_, index) => (
                                         <Star
-                                            key={i}
+                                            key={index}
                                             className="size-4 md:size-4.5 text-transparent fill-amber-500"
                                         />
                                     ))}
